@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TCM Test Suite">
+<test name="Home Page Test Case">
+<classes>
+<class name="testCases.Test_HomePageVerification"></class>
+</classes>
+</test>
+
+<test name="Live Stream Test Case">
+<classes>
+<class name="testCases.Test_LiveStream"></class>
+</classes>
+</test> 
+
+
+<test name="Videos Test Case">
+<classes>
+<class name="testCases.Test_VideosVerification"></class>
+</classes>
+</test> 
+  
+</suite>

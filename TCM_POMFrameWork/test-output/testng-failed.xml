@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TCM Test Suite]">
+  <test thread-count="5" name="Home Page Test Case(failed)">
+    <classes>
+      <class name="testCases.Test_HomePageVerification">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyingHomePageTitle"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.Test_HomePageVerification -->
+    </classes>
+  </test> <!-- Home Page Test Case(failed) -->
+</suite> <!-- Failed suite [TCM Test Suite] -->

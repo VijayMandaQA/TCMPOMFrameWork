@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TCM Test Suite" duration-ms="3202" started-at="2021-08-30T23:26:59 IST" finished-at="2021-08-30T23:27:02 IST">
+    <groups>
+    </groups>
+    <test name="Home Page Test Case" duration-ms="83" started-at="2021-08-30T23:26:59 IST" finished-at="2021-08-30T23:26:59 IST">
+      <class name="testCases.Test_HomePageVerification">
+        <test-method status="PASS" signature="verifyingHomePageTitle()[pri:0, instance:testCases.Test_HomePageVerification@436e852b]" name="verifyingHomePageTitle" duration-ms="57" started-at="2021-08-30T23:26:59 IST" finished-at="2021-08-30T23:26:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingHomePageTitle -->
+      </class> <!-- testCases.Test_HomePageVerification -->
+    </test> <!-- Home Page Test Case -->
+    <test name="Live Stream Test Case" duration-ms="2597" started-at="2021-08-30T23:26:59 IST" finished-at="2021-08-30T23:27:02 IST">
+      <class name="testCases.Test_LiveStream">
+        <test-method status="PASS" signature="navigatingLiveStreamTab()[pri:0, instance:testCases.Test_LiveStream@1a3869f4]" name="navigatingLiveStreamTab" duration-ms="2597" started-at="2021-08-30T23:26:59 IST" finished-at="2021-08-30T23:27:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingLiveStreamTab -->
+      </class> <!-- testCases.Test_LiveStream -->
+    </test> <!-- Live Stream Test Case -->
+    <test name="Videos Test Case" duration-ms="494" started-at="2021-08-30T23:27:02 IST" finished-at="2021-08-30T23:27:02 IST">
+      <class name="testCases.Test_VideosVerification">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testCases.Test_VideosVerification@76a3e297]" name="launchBrowser" is-config="true" duration-ms="85182" started-at="2021-08-30T23:25:34 IST" finished-at="2021-08-30T23:26:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="watchingVideo()[pri:0, instance:testCases.Test_VideosVerification@76a3e297]" name="watchingVideo" duration-ms="492" started-at="2021-08-30T23:27:02 IST" finished-at="2021-08-30T23:27:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- watchingVideo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Test_VideosVerification@76a3e297]" name="tearDown" is-config="true" duration-ms="1550" started-at="2021-08-30T23:27:02 IST" finished-at="2021-08-30T23:27:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Test_VideosVerification -->
+    </test> <!-- Videos Test Case -->
+  </suite> <!-- TCM Test Suite -->
+</testng-results>
